@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "transformer"
+version = "0.1.0"
+description = ""
+authors = ["Srijan <srijan.chaudhuri@agilebits.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.4.1"
+datasets = "^3.0.1"
+tokenizers = "^0.20.1"
+tensorboard = "^2.18.0"
+torchmetrics = "^1.4.3"
+torchtext = "^0.18.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
